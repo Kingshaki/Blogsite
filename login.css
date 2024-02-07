@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+body {
+    background-color: rgba(30, 161, 170, 0.445);
+}
+.wrapper {
+    width: 420px;
+    padding: 5rem 1rem;
+    margin:50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 2rem;
+    color: #0e0d0d;
+    margin-bottom: 1.2rem;
+}
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    background: #f1ebeb;
+}
+button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    background: rgba(22, 162, 197, 0.733);
+}
+button:hover {
+    background: rgba(22, 162, 197, 0.733);
+}
+input:focus {
+    border: 1px solid rgba(192, 192, 192);
+}
+.terms {
+    margin-top: 0.2rem;
+}
+.terms input {
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label {
+    font-size: 0.7rem;
+}
+.terms a {
+    color: rgb(22, 162, 197, 0.733);
+    text-decoration: none;
+}
+.member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #1d1b1b;
+}
+.member a {
+    color: rgb(40, 187, 197);
+    text-decoration: none;
+}
